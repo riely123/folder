@@ -5,22 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riely Lunario - Valorant Gamer</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .profile-picture {
+    max-width: 100%; /* Set maximum width to 100% */
+    max-height: 100%; /* Set maximum height to 100% */
+    width: auto; /* Ensure the image maintains its aspect ratio */
+    height: auto; /* Ensure the image maintains its aspect ratio */
+}
+
+.picture-frame {
+    width: 300px; /* Adjust the width of the frame */
+    height: 300px; /* Adjust the height of the frame */
+    border: 1px solid #000; /* Add a border to create the frame */
+    overflow: hidden; /* Hide overflowing content */
+    margin: 0 auto; /* Center the frame horizontally */
+}
+</style>
 </head>
 <body>
 
     <header>
         <h1>Riely Lunario</h1>
         <p>Valorant Gamer</p>
+        <div class="picture-frame">
+        <img src="riely.jpg" alt="Riely Lunario" class="profile-picture center" width="200" height="200">
+    </div>
     </header>
+    
 	
     <nav>
         <a href="index.html">Home</a>
         <a href="contacts.html">Contacts</a>
         <a href="achievements.html">Achievements</a>
         <a href="about.html">About Me</a>
+        <a href="registration.php">Login</a>
+        <a href="feedback.php">Feedback</a>
     </nav>
 
+    
+
     <section>
+        
         <h2>About Me</h2>
         <p>Welcome to my Valorant clips website! I am Riely Lunario, a dedicated gamer with a passion for competitive gaming, particularly in the world of Valorant.</p>
 
